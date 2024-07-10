@@ -1,9 +1,9 @@
-import Image from "next/image";
+import SideBar from "@/components/SideBar";
 
 export default function Home() {
   return (
     <div>
-       <h2>Lets Build Connect </h2>
+      <SideBar />
     </div>
   );
 }
